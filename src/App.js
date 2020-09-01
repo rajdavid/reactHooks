@@ -3,6 +3,7 @@ import ClassCounter from './componets/ClassCounter'
 import HookCounter from './componets/HookCounter'
 import HookCounter2 from './componets/HookCounter2'
 import HookCounter3 from './componets/HookCounter3'
+import HookCounter4 from './componets/HookCounter4'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <hr />
       <HookCounter2 />
       <hr />
-      <HookCounter3/>
+      <HookCounter3 />
+      <HookCounter4/>
     </div>
   );
 }
