@@ -1,5 +1,6 @@
 import React from 'react'
-import MouseContainer from './componets/MouseContainer'
+//import MouseContainer from './componets/MouseContainer'
+import IntervalHookCounter from './componets/IntervalHookCounter'
 //import HooksEffect1 from './componets/HooksEffect1'
 // HookMouse from './componets/HookMouse'
 // import ClassCounter from './componets/ClassCounter'
@@ -19,7 +20,7 @@ function App() {
       <HookCounter3 />
       <HookCounter4/> */}
       {/* <HooksEffect1/> */}
-      <MouseContainer/>
+      <IntervalHookCounter/>
     </div>
   );
 }
