@@ -1,5 +1,6 @@
 import React from 'react'
-import HooksEffect1 from './componets/HooksEffect1'
+//import HooksEffect1 from './componets/HooksEffect1'
+import HookMouse from './componets/HookMouse'
 // import ClassCounter from './componets/ClassCounter'
 // import HookCounter from './componets/HookCounter'
 // import HookCounter2 from './componets/HookCounter2'
@@ -16,7 +17,8 @@ function App() {
       <hr />
       <HookCounter3 />
       <HookCounter4/> */}
-      <HooksEffect1/>
+      {/* <HooksEffect1/> */}
+      <HookMouse/>
     </div>
   );
 }
